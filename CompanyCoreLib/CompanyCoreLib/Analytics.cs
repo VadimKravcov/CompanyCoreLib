@@ -8,17 +8,6 @@ namespace CompanyCoreLib
 {
     public class Analytiks
     {
-        class DateTimeWithCounter
-        {
-            public DateTime DateTimeProp;
-            public int Counter = 0;
-            public DateTimeWithCounter(DateTime date)
-            {
-                DateTimeProp = date;
-                Counter = 1;
-            }
-        }
-
         public List<DateTime> PopularMonths(List<DateTime> dates)
         {
             var DateTimeWithCounterList = new List<Tuple<DateTime, int>>();
